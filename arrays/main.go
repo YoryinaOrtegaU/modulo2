@@ -25,4 +25,8 @@ func main() {
 
 	fmt.Println(a[0])
 	fmt.Println(a)
+
+	dias := [3]string{"lunes", "martes"}
+
+	fmt.Println(dias, cap(dias), len(dias))
 }
