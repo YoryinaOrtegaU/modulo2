@@ -7,8 +7,9 @@ func main() {
 	//slice
 	var sl []int
 	sl = append(sl, 4, 1, 2)
+	sl[2] = 3
 
-	fmt.Println("sl", sl[1:2], cap(sl), len(sl))
+	fmt.Println("sl", sl, cap(sl), len(sl))
 
 	var ola = []int{2, 3, 4}
 	ola = append(ola, 3, 6, 7, 8, 9)

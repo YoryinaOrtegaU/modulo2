@@ -46,7 +46,7 @@ func verificarMultiploCinco() {
 		case i%15 == 0:
 			fmt.Print("Fizz")
 			fallthrough
-		case i%5 == 0:
+		case i%4 == 0:
 			fmt.Print("Buzz")
 		case i%3 == 0:
 			fmt.Print("Fizz2")
